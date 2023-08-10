@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+        font-family:'Arial Narrow', Arial, sans-serif;
+        /* Medidas utilizadas oficialmente é EM e PX.
+         Medidas Absolutas
+        cm, mm, im 'POLEGADA', px, pt, pc 'PAICA' 
+        
+        Medidas Relativas
+        em 'é relativo a letra M maiuscula da palavra', ex 'relativo a altura X', rem, vw, vh, %
+        16px é geralmete = 1em 'EM é o tamanho da letra'
+        */   
+        font-size: 1em;
+        /* ligther normal bold border*/    
+        }
+        h1{
+            /*shorthand font
+            font-style --> font-weight -->font-size -->font-family
+            font-family: 'Work Sans', sans- serif
+            font-weight: bolder
+            font-size: 3em
+            font-style: italic
+            */
+            font: italic bolder 3em 'Work Sans',san-serif
+        }
+        h2{
+            font: bold 2em 'Work Sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, hic quis. Sit corporis maxime sint officiis velit, deserunt pariatur, vel minus repellat architecto illum perferendis beatae est, quasi optio animi?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque sunt quidem perspiciatis odit facilis officia ut illum. Aliquam officiis exercitationem optio dolore ducimus error, fuga tempore, expedita excepturi veritatis asperiores?
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni impedit exercitationem rem totam nulla, soluta itaque velit vero, mollitia neque saepe. Porro nisi quaerat ullam fugiat optio maiores id quasi.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores itaque, illum temporibus et vel dicta, mollitia eligendi cum fugit architecto ea vero aperiam, voluptates voluptas illo nobis beatae consequuntur possimus!</p>
+</body>
+</html>
